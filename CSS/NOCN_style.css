@@ -1,0 +1,56 @@
+
+.containerA{
+ display: grid;
+ background-color: #035BB1;
+ grid-gap: 5px;
+ padding: 5px;
+ grid:
+     "logo header header header"
+     "logo sidebar sidebar sidebar"
+     "content-2 content-1 content-1 content-3"
+     "content-2 content-1 content-1 content-3"
+     "footer footer footer footer"
+}
+.containerA > div{
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+containerB{
+ display: grid;
+ background-color: #035BB1;
+ grid-gap: 5px;
+ padding: 5px;
+ grid:
+     "logo header header header"
+     "logo sidebar sidebar sidebar"
+     "content-2 content-1 content-1 content-3"
+     "content-2 content-1 content-1 content-3"
+     "footer footer footer footer"
+}
+.containerB > div{
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+} 
+.header{
+ grid-area: header;   
+}
+.logo{
+  grid-area: logo;   
+}
+.sidebar{
+   grid-area: sidebar;  
+}
+.content-1{
+   grid-area: content-1;  
+}
+.content-2{
+    grid-area: content-2; 
+}
+.content-3{
+  grid-area: content-3;   
+}
+.footer{
+   grid-area: footer;  
+}
